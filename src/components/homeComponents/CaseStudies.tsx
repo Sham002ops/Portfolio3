@@ -298,7 +298,7 @@ const CaseStudies: React.FC = () => {
                       className={`w-16 h-16 rounded-lg bg-cover bg-center transition-all duration-300 ${
                         activeImage === idx ? 'ring-2 ring-offset-2 scale-105' : 'opacity-50 hover:opacity-100'
                       }`}
-                      style={{ backgroundImage: `url(${img})`, ringColor: fmcCaseStudy.color }}
+                      style={{ backgroundImage: `url(${img})` }}
                     />
                   ))}
                 </div>
