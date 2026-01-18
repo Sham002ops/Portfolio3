@@ -1,14 +1,28 @@
-// import '@/styles/hero.css'
-// import SiteNavbar from '@/components/layout/SiteNavbar'
-// import Footer from '@/components/layout/Footer'
-
-
 import type { Metadata } from 'next'
 import './globals.css'  // ← THIS IS CRITICAL
 
 export const metadata: Metadata = {
-  title: 'Your Brand Name',
-  description: 'Premium Clothing Store',
+  title: {default: 'WebAmez - Premium Web Development & Design Services',
+    template: '%s | WebAmez',},
+
+  description:  'Professional web development and design services. I build production-ready, scalable websites and applications using modern technologies like Next.js, React, and Node.js.',
+
+  keywords: [
+    'web development',
+    'web design',
+    'Next.js developer',
+    'React developer',
+    'full-stack developer',
+    'portfolio website',
+    'custom web applications',
+    'responsive design',
+    'UI/UX design',
+    'Mumbai web developer',
+  ],
+
+  authors: [{ name: 'Sham', url: 'https://webamez.com' }],
+  creator: 'Sham',
+  publisher: 'WebAmez',
 }
 
 export default function RootLayout({
