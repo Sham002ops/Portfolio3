@@ -26,6 +26,18 @@ nav.nav,
 .counter {
   opacity: 1;
 }
+.sidebar .logo {
+  width: 60px;
+  height: 60px;
+  overflow: visible;
+}
+
+.sidebar .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 
 /* Hero background starts hidden */
 .hero-bg {

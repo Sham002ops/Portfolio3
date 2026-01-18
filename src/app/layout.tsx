@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import './globals.css'  // ← THIS IS CRITICAL
+import './globals.css'  
 
 export const metadata: Metadata = {
   title: {default: 'WebAmez - Premium Web Development & Design Services',

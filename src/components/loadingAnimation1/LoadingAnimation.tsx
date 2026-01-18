@@ -374,10 +374,17 @@ const LoadingAnimation: React.FC<LoadingAnimationProps> = ({
         ))}
       </div>
 
-        <nav className="nav">
+  <nav className="nav">
   <div className="logo-name">
-    <a href="#">{name}</a>
+    <div className=' flex justify-center items-center'>
+     <div>
+       <img src="/images/BAWA.png"  className='w-11 h-11' alt="" />
+      </div>
+       <div>
+        <a href="#">{name}</a>
+       </div>
   </div>
+  </div> 
 
   <div className="nav-items ">
     <div className="links">
