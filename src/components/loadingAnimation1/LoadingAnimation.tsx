@@ -454,7 +454,7 @@ const LoadingAnimation: React.FC<LoadingAnimationProps> = ({
           <p className="case-study-stat">Clear presentation of multiple programs</p>
           <p className="case-study-stat">Structured content for a large member base</p>
         </div>
-        <a href='#contact' className="case-study-cta">
+        <a href='#case-studies' className="case-study-cta">
           <CButton />
         </a>
       </div>

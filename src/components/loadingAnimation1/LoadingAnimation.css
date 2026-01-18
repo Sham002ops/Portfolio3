@@ -667,6 +667,7 @@ nav.nav {
 
   .hero-case-study-card {
     left: 3.75rem;
+    bottom: 1rem;
     width: calc(100% - 4.75rem);
     padding: 1.25rem;
   }

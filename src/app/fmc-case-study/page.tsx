@@ -140,10 +140,17 @@ const CaseStudies: React.FC = () => {
 
   return (
     <section ref={sectionRef} className="w-full bg-black/15  ">
-      <div className=' border-black/15 w-full pt-16 border-b-2'></div>
+      <div className=' border-black/15 w-full p-4 border-b-2'> 
+      <div className=' flex justify-start pl-2 items-center'>
+     <div>
+       <img src="/images/BAWA.png"  className='w-11 h-11' alt="" />
+      </div>
+       <div className=' text-black/85 font-bold text-2xl'>
+        WebAmez
+       </div>
+  </div></div>
       <div className="max-w-6xl mx-auto px-6 py-2 md:px-12">
-          {/* Left vertical guide line */}
-  <div className="absolute top-0 left-8 md:left-12 lg:left-20 h-full w-px bg-neutral-400" />
+
         
         {/* Header */}
         <div className="animate-section mb-16 border-b border-neutral-300 pb-1">
