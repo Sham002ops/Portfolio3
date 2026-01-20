@@ -409,7 +409,7 @@ const LoadingAnimation: React.FC<LoadingAnimationProps> = ({
         <div className="logo">
           <img src='/images/SMlogo.jpg' alt="Logo" />
         </div>
-        <div className="divider"></div>
+        <div className="divider hidden lg:block"></div>
       </div>
 
       <div className="tagline-container absolute top-[20%] sm:top-[20%] lg:top-[40%] left-[7.5rem] -translate-y-1/2 w-[55%] z-10">

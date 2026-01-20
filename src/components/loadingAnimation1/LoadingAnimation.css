@@ -159,7 +159,7 @@ nav.nav,
   aspect-ratio: 5/3;
   border-radius: 0.75rem;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   will-change: transform;
   transform-origin: center center;
   transform-style: preserve-3d;
@@ -646,7 +646,7 @@ nav.nav {
   }
 
   .tagline-container {
-    left: 3.75rem !important;
+    left: 2.75rem !important;
     width: calc(100% - 4.75rem) !important;
     /* top: 28% !important; */
   }
@@ -661,12 +661,12 @@ nav.nav {
 
   .images-container .img {
     width: 70%;
-    top: 1.8rem;
-    left: 5.5rem;
+    top: 1.5rem;
+    left: 4rem;
   }
 
   .hero-case-study-card {
-    left: 3.75rem;
+    left: 2.75rem;
     bottom: 1rem;
     width: calc(100% - 4.75rem);
     padding: 1.25rem;
